@@ -3,9 +3,10 @@ a tool for patchelf
 
 # Install
 先运行check.sh检查依赖，glibc-all-in-one默认安装在~，若需更改请修改check.sh和pcf.sh
+如果glibc-all-in-one路径为~/glibc-all-in-one可下载pcf二进制文件直接使用
 
 # Usage
-Usage: pcf [-h, -f, -s, -d] <libc> <ld> <binary>
+Usage: pcf [-h, -f, -s, -d, -on, -off] <libc> <ld> <binary>
 
         -h: help
 
